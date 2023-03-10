@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game\game.vcxproj", "{B63833D8-E66D-4452-8C6F-A263CAB0CA5B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "glfw\glfw.vcxproj", "{88EE55B9-30CB-4B5F-827F-4106E62FAAAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{E74B9862-174F-4942-94E6-17F53DDBEE9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glew", "glew\glew.vcxproj", "{41459491-EFAA-4E8C-86F2-58A263F2603C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B63833D8-E66D-4452-8C6F-A263CAB0CA5B}.Debug|x64.ActiveCfg = Debug|x64
+		{B63833D8-E66D-4452-8C6F-A263CAB0CA5B}.Debug|x64.Build.0 = Debug|x64
+		{B63833D8-E66D-4452-8C6F-A263CAB0CA5B}.Release|x64.ActiveCfg = Release|x64
+		{B63833D8-E66D-4452-8C6F-A263CAB0CA5B}.Release|x64.Build.0 = Release|x64
+		{88EE55B9-30CB-4B5F-827F-4106E62FAAAA}.Debug|x64.ActiveCfg = Debug|x64
+		{88EE55B9-30CB-4B5F-827F-4106E62FAAAA}.Debug|x64.Build.0 = Debug|x64
+		{88EE55B9-30CB-4B5F-827F-4106E62FAAAA}.Release|x64.ActiveCfg = Release|x64
+		{88EE55B9-30CB-4B5F-827F-4106E62FAAAA}.Release|x64.Build.0 = Release|x64
+		{41459491-EFAA-4E8C-86F2-58A263F2603C}.Debug|x64.ActiveCfg = Debug|x64
+		{41459491-EFAA-4E8C-86F2-58A263F2603C}.Debug|x64.Build.0 = Debug|x64
+		{41459491-EFAA-4E8C-86F2-58A263F2603C}.Release|x64.ActiveCfg = Release|x64
+		{41459491-EFAA-4E8C-86F2-58A263F2603C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88EE55B9-30CB-4B5F-827F-4106E62FAAAA} = {E74B9862-174F-4942-94E6-17F53DDBEE9E}
+		{41459491-EFAA-4E8C-86F2-58A263F2603C} = {E74B9862-174F-4942-94E6-17F53DDBEE9E}
+	EndGlobalSection
+EndGlobal
